@@ -20,4 +20,4 @@ while True:
             else:
                 print(sayi, "is not a prime number.")
         except ValueError:
-            print("Wrong entry\nPlease enter correct one...")
+            print("Invalid entry\nPlease enter valid one...")
