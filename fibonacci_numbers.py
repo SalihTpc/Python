@@ -4,7 +4,7 @@ fibo = [a, b]
 c = int(input("When do you want stop fibonacci list\nPlease give me a number:"))
 while True:
     a, b = b, a + b
-    fibo.append(b)
-    if b >= c:
+    if b > c:
         break
+    fibo.append(b)
 print(fibo)
